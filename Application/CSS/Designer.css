@@ -1,0 +1,379 @@
+/* service block */
+#service-block
+{
+    background: url('../Images/Yellow Blue and Pink Gradient Minimal One-Liner Quote Facebook Post.png');
+    background-blend-mode:multiply ;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+#service-block .card:hover{
+
+    background: url('../Images/Yellow Blue and Pink Gradient Minimal One-Liner Quote Facebook Post.png');
+    background-blend-mode:multiply ;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+#service-block .services{
+        background-color:#1E2A5E;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        font-style: normal;
+        color:#8f2d56;
+}
+#service-block .services:hover{
+    background-color: #000;
+    color:whitesmoke;
+}
+#service-block .card-item{
+    background-color: transparent;
+    border:none;
+    width:auto;
+    padding:10px 0px;
+    font-size:12px;
+}
+#service-block .card-title{
+    font-size: 14px;
+    color: #2a9d8f;
+}
+#service-block .card-text{
+        font-family: "Balthazar", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+
+}
+
+#service-block .material-symbols-outlined{
+    font-size: 40px;
+    box-shadow: 0px 2px 1px 1px;
+}
+@media screen and (max-width:768px){
+    #service-block .services{
+        font-size: 12px;
+    }
+}
+
+/*@media screen and (min-width:991px)
+{
+    #service-block .card-item{
+        width: auto;
+    }
+}*/
+
+/* SLIDE BLOCK */
+#slide-block .carousel-item  .carousel-caption 
+{
+    bottom:180px;
+}
+
+#slide-block img
+{                   
+    height:553px;
+    object-fit:cover;
+}
+
+#slide-block #slide-item button{
+    border: 1px solid #FFB200;
+    color:whitesmoke
+}
+
+#slide-block #slide-item .btn:hover{
+    background-color: #f75023;
+    border: 1px solid transparent;
+}
+
+#slide-block .carousel-caption h2{
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    color:whitesmoke;
+}
+#slide-block .carousel-caption p{
+    font-size: 18px;
+    color:#FFF5E4;
+}
+
+#slide-block .carousel-indicators{
+        bottom:40px;
+}
+
+
+/* #slide-block .carousel-indicators [data-bs-target]{ */
+    /* width:30px; */
+    /* height:5px; */
+    /* background-color: #000; */
+/* } */
+
+
+
+
+
+/* portfolio */
+#portfolio-block {
+    background-image: url('../Images/media_20240814_082407_1882873393460703014.png');
+
+}
+.e
+{
+    background-image: url('../Images/media_20240814_082407_1882873393460703014.png');
+}
+
+.port-color{
+    /* padding: 5px;; */
+    /* background-color: ; */
+    color:#FFB200;
+    font-size:10px;
+}
+
+#portfolio-block .carousel-item .container .person-border{
+    width:50px;
+    height:50px;
+    display:block;
+    margin:auto;
+    border-radius:50%;
+    overflow:hidden;
+    /* border:1px solid #6f6b80; */
+    margin-top:10px;
+}
+#portfolio-block .carousel-item .container .person-border img{
+    width:100%;
+    /* height:100%; */
+
+}
+
+#portfolio-block .head .port-btn{
+    background-color: #ffb703;
+    font-weight: 600;
+    font-size: 14px;
+    font-style: normal;
+    color:#8f2d56;
+}
+
+#portfolio-block .head a:hover{
+    background-color: #000;
+    color:white;
+}
+
+#portfolio-block .head .h4{ 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    font-style: normal;
+    color:#8f2d56;
+}
+
+#portfolio-block  .material-symbols-outlined{
+    color:whitesmoke;
+    font-weight: 300;
+    font-size: 60px;
+}
+#portfolio-block  .carousel-indicators{
+    bottom: -40px;
+}
+#portfolio-block  .carousel-indicators button{
+    background-color: #f75023;
+    width:10px;
+    height:10px;
+}
+#portfolio-block  .carousel-indicators .active{
+    background-color: white;
+}
+
+@media screen and (max-width:767px){
+
+    #portfolio-block  h4{
+        font-size: 12px;
+    }
+    #portfolio-block  h6{
+        font-size:8px;
+    }
+    #portfolio-block .port-btn{
+        font-size: 8px;
+    }
+
+    #portfolio-block  .material-symbols-outlined{
+        font-size: 20px;
+    }
+
+}
+*/
+
+
+/* content- block */
+#content-block{
+    background-color: #8f2d56;
+    background-color: black;
+}
+
+#content-block .h3{
+    background-color: #140f2d;
+    color:#8f2d56;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+#content-block .content-head-2{
+    color: black;
+    font-size: 10px;
+}
+#content-block .card-body{
+    background-color:transparent;
+    /* width:auto; */
+    /* height:200px; */
+}
+#content-block .card-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color:tomato;
+}
+#content-block .card-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    color:#f75023;
+}
+
+.content-back
+{
+    background-image:url('../Images/media_20240810_133319_961371850554042264.png');
+}
+
+.ct-1 .card
+{
+    background-color: transparent;
+}
+.ct-1 .card:hover{
+    background-color: #E1F0DA;
+    color: #000;
+}
+
+/* Testimonial block */
+.testimonial-area{
+    background: url('../Images/Yellow Blue and Pink Gradient Minimal One-Liner Quote Facebook Post.png');
+    background-blend-mode:multiply ;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    /* padding:40px 0; */
+}
+
+.section-header h4{
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.section-header{
+    padding-bottom:0px;
+}
+.section-header h2{
+    font-weight:700;
+}
+.section-header p{
+    color:#6f6b80;
+    width: 50%;
+    margin:auto;
+}
+
+.icon-area {
+    text-align:center;
+}
+.icon-area span{
+    color:#f75023;
+    font-size:80px;
+    margin-bottom: 20px;;
+}
+
+
+.content p{
+    color:#6f6b80;
+    width:40%;
+    margin:auto;
+}
+.person{
+    width:50px;
+    height:50px;
+    display:block;
+    margin:auto;
+    border-radius:50%;
+    overflow:hidden;
+    /* border:3px solid #6f6b80; */
+    margin-top:10px;
+}
+.person img{
+    width:100%;
+    height:100%;
+}
+.content h5{
+    
+    font-weight:900;
+    margin-top:15px;
+} 
+.testimonial-area .carousel-indicators{
+    bottom:-30px;
+}
+.testimonial-area .carousel-indicators [data-bs-target]{
+    width:30px;
+    /* height:5px; */
+    background-color: #f75023;
+}
+
+/*contact*/
+.contact-section{
+    /* background-image: url('media_20240810_133319_8632210106563094034.png'); */
+    /* background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAKgAswMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAACAQADBAf/xAAnEAEBAQACAQMDBAMBAAAAAAAAAREC8DEhQVEScYFCYaHRkcHxYv/EABgBAQEBAQEAAAAAAAAAAAAAAAIBAAMF/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwD51xXO/wAfdu99/C97+XvPFXz38rG4w5CkC0T4zV8LFkC1MJCkLB1omFIpSDamLI0XGxNTEsPGbG0JGsJq2NooWNiYuudiY6UamFoYnKYTWNYsrkx/So4WuX05yvf4WRM8X5KDDqzlve+5Z8IcMLUkKNFzwWBWKLIq4GphYrFEtaTGWRsYdSzUkOM2NoWNh2JjNoYljpYjFKGalmElFoFF0walOVz+r6fRj+v6fRkPXHh317PC+/e+U4z9t7/R/T++hFtb4ORJdKEFqwkWQ4CyauNChDa2LGWRR1Fi40VNSRrCZsTRarWZRsTDHEXQSnY0iLK5JfJ1L4GnExhqMTl7wvhIcczqyEMKHApLG4wpMOBa0LGWKDQkhFBSKsZU1MYmxmFKaVmCpSYSgjSopVGjTo1CgYyshOEPjB43uLHOOtPwUEocc6UKDDIKsVIUWAxRChjVixIrIzLGVEqFUqKNReSMo1KQ0asGjSo1KcHVZhJ55CgTybnHalCiQocc6sOAUIKRQYUKASxFhDVipFVFZozI1RaiMg1U5MsFKtETiJyWolKAxMJPN+N+Cn30J697Cjk7UoYSnxOBShQDhhShCsIKUKC0UTiwYsUVZNbWZbU1GZm5I3JNZYiVko0koFR0TiMusxPLx/4UGZPPfyWz2cY7Uyno5wocCukqiWqFKFAlIwpEBKKxZcTW1Upbrbgs2pi2payVtVqlUUVaNVEWDRW0alORmFhLHm7/ALdPhz3vfUuHu5R2sdJS1zne/YyCwoXEeNXTGwygLxULD1Qq6Q4cYZVjJi60qMrLWTUTWwqmpUtxGka0aujrHjUbV5DPto0pE1mz/wBsJY88++d+C43Pfe/DnO9+6zfZyldrHS3vf2WUfTPRZ3vgxw+Juel+/wALKFhxdCevr8qcoWGUGVLV0cNdDVlbUwtbR1LV1sPU3ElRFxbW1E3G1cVKlqJasi7mhaycu9+wnI28P1eWHeH6vP5ZCxwlxd7308szm6lx9dnf68LPW7m9/wAMywafpM2735KWezMUBPqJGJCi6zMC60qsqMzMrNqWsyMmozMq0NZkVLU5eqsJQc4fq8szMWv/2Q=='); */
+    background-color:#1E2A5E;
+    background-blend-mode: color-burn;
+    background-blend-mode:multiply ;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+
+    margin:10px 0px;
+}
+
+.contact-heading{
+    color:#F7F7F8;
+        font-family: "Bungee Tint", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+.contact-subheading{
+    color:white;
+    font-size: 12px;
+}
+
+input{
+    height:40px;
+}
+textarea{
+    height:130px;
+}
+
+/* about */
+.page-section-about
+{
+    background-image: url('../Images/Neutral Minimal About Us Instagram Post.png');
+  /* background-color:#44b3d4; */
+  background-blend-mode: color-burn;
+  background-blend-mode:multiply ;
+  background-position: center;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  
+  margin:10px 0px;
+}
+.section-heading{
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+.section-subheading{
+    color:#021526;
+    font-family: "Angkor", serif;
+    font-weight: 400;
+    font-style: normal;
+}

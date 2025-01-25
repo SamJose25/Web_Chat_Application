@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Akronim&family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Angkor&family=Balthazar&family=Bungee+Tint&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Matemasie&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+html{
+    scroll-behavior:auto;
+    font-size: 12px;
+}
+*{
+    margin:0;
+    padding:0;
+    font-family: poppins;
+    font-size:12px;
+
+}
+
+/* header */
+#header .navbar{
+    background-image: url('../Images/media_20240814_082407_1882873393460703014.png');
+    background-blend-mode:multiply ;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+
+}
+
+#header .nav-item
+{
+    margin: 2px;
+    padding:10px ;
+}
+
+#header a{
+    color:white;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: poppins;
+    font-weight: 500;
+    font-size:14px
+}
+
+
+#header .navbar-nav li .underline
+{
+    padding:0;
+    position: relative;
+}
+#header .navbar-nav li .underline::after{
+    content: '';
+    width: 0px;
+    height:2px;
+    position: absolute;
+    left:0;
+    bottom:-1px;
+    transition: 0.5s;
+    background-color:red;
+}
+#header .navbar-nav li .underline:hover::after
+{
+    width: 100%;
+}
+#header .navbar-nav .box-color
+{
+    font-size: 14px;
+    color:tomato;
+    background-color: #000;
+    border-radius: 5px;
+    padding:5px 5px 5px 5px;
+    transition: .5s;
+
+    box-sizing: border-box;
+}
+#header .navbar-nav .box-color:hover
+{
+    color:#ffb703;
+    background-color: #f75023;
+}
+
+
+
+
+/* Modal SIGN UP*/
+#SIGN_UP .modal-header
+{
+        background: url('../Images/media_20240814_082407_1882873393460703014.png');
+        
+        background-blend-mode:multiply ;
+        background-position: center;
+        background-size: cover; 
+        background-repeat: no-repeat;
+}
+#SIGN_UP .modal-header .modal-title{
+        color:#f75023;
+
+        font-weight: 500;
+        font-style: normal;
+        text-shadow: #6f6b80;
+        text-transform: uppercase;        
+}
+#SIGN_UP .title
+{
+    color: #8f2d56;
+    padding:5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#SIGN_UP  .modal-body
+{
+    background: url('../Images/Testimonial.png');
+    background-blend-mode: color-burn;
+    background-blend-mode:multiply ;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    /* backdrop-filter: blur( 14px ); */
+
+}
+#SIGN_UP .login-box
+{
+    background: url('../Images/Blue\ White\ Minimalist\ Mountain\ Desktop\ Wallpaper.png');
+    background-blend-mode: color-burn;
+    background-blend-mode:multiply ;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+
+}
+#SIGN_UP .form-sign-up{
+    /* background: url('ffffc4025a81507b54eacf3225272584.jpg'); */
+    background-color: rgba(233, 219, 219, 0.54);
+}
+
+
+#SIGN_UP ::placeholder{
+    color:#1E2A5E;
+    font-size: 12px;
+}
+
+#SIGN_UP input, select, textarea{
+    color: #1E2A5E;
+    font-size: 12px;
+}
+
+
+#LOGIN .modal-body
+{
+    /* background-color: rgba(233, 219, 219, 0.54); */
+    background-image: url('data:image/jpeg;base64,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');
+    background-blend-mode: color-burn;
+    background-blend-mode:multiply ;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+
+    color:#2a9d8f;
+
+}
+#LOGIN .modal-body .title{
+    color: #8f2d56;
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 600;
+    font-style: normal;    
+
+}
+
+#LOGIN .modal-body .title .h2
+{
+    padding:0;
+    position: relative;
+}
+#LOGIN .modal-body .title .h2::after{
+    content: '';
+    width: 55px;
+    height:2px;
+    position: absolute;
+    left:0;
+    bottom:-1px;
+    transition: 0.5s;
+    background-color:#FFB200;
+}
+
+#LOGIN .modal-body .title .content{
+    padding-top: 2px;
+    color:black;
+    font-family: poppins;
+}
+#LOGIN .login-box
+{
+    background-blend-mode: color-burn;
+    background-blend-mode:multiply ;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+#LOGIN .login-box .color
+{
+    background-color: transparent;
+}
+
+.log
+{
+    font-family: "New Amsterdam", sans-serif;
+    /* font-weight: 100; */
+    font-style: normal;
+    color:#000;
+}
+.t
+{
+    border-bottom:1px solid #8f2d56;
+}
+#LOGIN .login-box .color .outline
+{
+    border: 1px solid dodgerblue;
+}
+#LOGIN .login-box .color .form-group .t
+{
+    text-decoration:none ;
+}
+
+#LOGIN .logicon .material-symbols-outlined
+{
+    color:#000;
+    font-size: 3rem;
+}
+
+
+
+
+
+
+
+
+/* footer */
+#footer{
+    background: url('../Images/Yellow Blue and Pink Gradient Minimal One-Liner Quote Facebook Post.png');
+
+    background-blend-mode:multiply ;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
+}
+
+#footer .footer-block .ud .und i
+{
+    padding:0;
+    position: relative;
+    cursor:pointer;
+}
+
+#footer .footer-block .ud .und i::after{
+    content: '';
+    width: 0px;
+    height:2px;
+    position: absolute;
+    left:0;
+    bottom:-1px;
+    transition: 0.5s;
+    background-color:#C73659;
+
+    
+}
+#footer .footer-block .ud .und i:hover::after
+{
+    width: 100%;
+}
+
